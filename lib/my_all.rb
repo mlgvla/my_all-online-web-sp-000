@@ -8,6 +8,11 @@ def my_all?(collection)
     i += 1
   end
 
+  if block_return_values.include?(false
+    false
+  else
+    true
+  end
 end
 
 my_all?([1,2,3]) {|1| 1 < 2}
